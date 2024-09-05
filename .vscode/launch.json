@@ -1,0 +1,21 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Bcserver Docker",
+             "request": "launch",
+             "type": "al",
+             "environmentType": "OnPrem",
+             "server": "http://new-bccontainer/", //ricorda di cambiare il nome prima di BC 
+             "serverInstance": "BC",
+             "authentication": "UserPassword",
+             "port": 7049,
+             "startupObjectId": 31,
+             "startupObjectType": "Page",
+             "breakOnError": true,
+             "launchBrowser": true,
+             "enableLongRunningSqlStatements": true,
+             "enableSqlInformationDebugger": true,
+             "tenant": "default" }
+    ]
+}
